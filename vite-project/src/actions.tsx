@@ -1,0 +1,5 @@
+export const inc_one = () => ({type: 'INC_ONE'})
+export const dec_one = () => ({type: 'DEC_ONE'})
+export const inc_five = () => ({type: 'INC_FIVE'})
+export const dec_five = () => ({type: 'DEC_FIVE'})
+export const random_num = (value) => ({type: 'RANDOM_NUM', payload: value})

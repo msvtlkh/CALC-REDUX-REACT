@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 400px;
+}
+
+.counter {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
